@@ -1,31 +1,74 @@
 body{
     margin:0;
     font-family: 'Helvetica', 'Arial', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 20px;
     line-height: 30px;
+    background-color:  white;
+    color: black;
 }
 
 header{
-    background-color: #F5E8E8;
+    background-color: white;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 20px;
     padding-bottom: 50px;
 }
 
-h1, h2{
-    font-family: 'Hachi Maru Pop', cursive;
+h1{
+    font-family: 'Fraunces', serif;
+    font-family: 'Bubblegum Sans', cursive;
+    color: #eaa365;
+    text-align: center;
 }
 
+/*Animation*/
+/*
+.cursor{
+    border-right: solid 3px #ef7c3f;
+    animation: animated-text 4s steps(21,end) i1s 1 normal both,
+    animated-cursor 600ms steps(21,end) infinite;
+
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* text animation */
+/*
+@keyframes animated-text{
+    from{width: 0;}
+    to{width: 472px;}
+}
+
+/*cursor animations */
+/*
+@keyframes animated-cursor{
+    from{border-right-color: #ef7c3f;}
+    to{border-right-color: transparent;}
+}
+*/
+
+/* header styles */
+/* write comment here */
+
 header h1{
-    color: white;
-    font-size: 50px;
+    color: #d65d1a;
+    color: #ef7c3f;
+    color: #eaa365;
+    font-size: 70px;
 }
 
 header img{
     border-radius: 150px;
+    width: 75%;
     width: 300px;
-    border: 20px solid wheat;
 }
+/*.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}*/
 
 main{
     max-width: 800px;
@@ -33,18 +76,24 @@ main{
     padding: 20px;
 }
 
+p{
+    
+}
+
 main img{
     max-width: 100%;
 }
 
 h2{
+    font-family: 'Bodoni Moda', serif;
     font-size: 30px;
-    color: wheat;
+    color: black;
     margin: 40px 0 10px;
 }
 
 a{
-    color: wheat;
+    color: pink;
+    text-align: left;
 }
 a:hover{
     color: white;
@@ -52,9 +101,9 @@ a:hover{
 }
 
 footer{
-    background-color: #F5E8E8;
+    background-color: white;
     text-align: center;
-    color: white;
+    color: #d65d1a;
     padding: 50px;
 }
 
@@ -63,15 +112,68 @@ footer p{
 }
 
 footer a{
-    color:white;
+    color: pink;
 }
 footer a:hover{
     opacity: .5;
-    background-color: transparent;
+    background-color: black;
 }
 
 p.caption{
     color: #999999;
     font-style: italic;
     margin-top: 0;
+}
+
+nav{
+    height:100px;
+    /*background-color: #F5E8E8;*/
+    background-color: #ffeab1;
+    background-color: white;
+    position: sticky;
+}
+
+nav.logo{
+    display: block;
+    width: 300px;
+    height: 40px;
+    position: absolute; top: 50%; left: 0;
+    margin-top: -20px;
+    margin-left: 30px;
+    background: url(img/milk-tea.png) no-repeat 0 0;
+    background-size: 100%;
+    overflow: hidden;
+    text-indent: -999px;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li{
+    margin: 0;
+    padding: 10px;
+    display: block;
+    float: left;
+}
+
+nav ul li a{
+    display: block;
+    height: 100%;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-style: bold;
+    font-family: 'Bubblegum Sans', cursive;
+    color: #eaa365;
+    text-align: center;
+    text-decoration: none;
+    padding: 30px 10px;
+}
+
+.action{
+
+}
+p{
+
 }
