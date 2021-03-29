@@ -18,6 +18,8 @@ header{
 h1{
     font-family: 'Fraunces', serif;
     font-family: 'Bubblegum Sans', cursive;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Bubblegum Sans', cursive;
     color: #eaa365;
     text-align: center;
 }
@@ -29,6 +31,9 @@ header h1{
     color: #d65d1a;
     color: #ef7c3f;
     color: #eaa365;
+    color: #ff99ac;
+    color: #eaa365;
+    color: pink;
     font-size: 70px;
 }
 
@@ -67,19 +72,27 @@ h2{
 }
 
 a{
-    color: pink;
+    color: #8e3f21;
+    color: #ff99ac;
     text-align: center;
 }
 
 a:hover{
-    color: white;
-    background-color: pink;
+    color: pink;
+    color: #ff99ac;
+    background-color: #fff2ce;
 }
 
 footer{
-    background-color: white;
+    background-color: #fff2ce;
+    background-color: transparent;
     text-align: center;
+    font-family: 'Bubblegum Sans', cursive;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Poppins', sans-serif;
     color: #d65d1a;
+    color: black;
+    color: #eaa365;
     padding: 50px;
 }
 
@@ -88,11 +101,12 @@ footer p{
 }
 
 footer a{
-    color: pink;
+    color: #ff99ac;
+    background-color: #fff2ce;
 }
 footer a:hover{
     opacity: .5;
-    background-color: black;
+    background-color: #fff2ce;
 }
 
 p.caption{
@@ -147,6 +161,7 @@ div.scrollmenu {
 }
 
 div.scrollmenu a{
+    font-family: 'Bubblegum Sans', cursive;
     text-align: center;
     text-decoration: none;
     padding: 30px 20px;
@@ -158,13 +173,21 @@ div.scrollmenu a{
     margin-right: 5%;
 }
 
+#quote{
+    font-family: 'Bubblegum Sans', cursive;
+}
+
 .activeLink{
     color:#d65d1a;
-    color:white;
-    background-color: pink;
+    color: white;
+    color: pink;
+    color: #ff99ac;
+    background-color:#fff2ce;
   }
   
   .inactiveLink{
+    color: #eaa365;
+    color: black;
     color: #eaa365;  
   }
   
@@ -173,9 +196,15 @@ div.scrollmenu a{
   }
   
   .inactiveLink:hover{
-    color: white;  
+    color: pink;
+    background-color: transparent; 
   }
 
+  div.highlight{
+      background-color: #fff2ce;
+      margin:0 -8px;
+      padding: 0 8px;
+  }
 .action{
 
 }
